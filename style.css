@@ -1,0 +1,57 @@
+body{
+    background-color:silver;
+    font-family: 'Lato';
+    margin:0px;
+    background: linear-gradient(#20123a,#3760a1);
+    min-height: 100vh;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#Menu{
+    background-color:white;
+    text-align: center;
+    margin-top:15px;
+    margin-bottom:15px;
+    border-bottom:5px solid #375fa0;
+    padding-bottom:15px;
+
+}
+
+#Menu a{
+    text-transform: uppercase;
+    color:black;
+    font-size: 1.4rem;
+    margin:10px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+#Menu a:hover{
+    color:#375fa0;
+}
+
+#Brand{
+    display:flex;
+    align-items: center;
+}
+#Brand h1{
+    font-style: italic;
+    margin-left:15px;
+}
+
+#Main{
+    margin-left:auto;
+    margin-right:auto;
+    width:75%;
+    padding:25px;
+    background-color:white;
+    min-height:100vh;
+}
+
+#Content{
+    padding:50px;
+}
